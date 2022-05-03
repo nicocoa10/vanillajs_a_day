@@ -1,0 +1,16 @@
+{
+  "name": "js_projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d vanillajs_proj"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://nicocoa10.github.io/vanillajs_a_day",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
