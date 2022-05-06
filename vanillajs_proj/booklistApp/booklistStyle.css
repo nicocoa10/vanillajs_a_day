@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-title{
+    font-size: 3em;
+    font-weight: 300;
+}
+.header-title span{
+    color: rgb(25, 162, 208);
+}
+
+.section-input{
+    margin-bottom: 1rem;
+
+}
+
+.book-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.submit-button{
+    width: 100%;
+    background-color: rgb(25, 162, 208);
+    color: #fff;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 300;
+}
+
+.close-button{
+    background-color: red;
+    color: white;
+    border: none;
+}
