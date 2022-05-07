@@ -42,3 +42,29 @@ header {
     color: white;
     border: none;
 }
+
+
+
+.on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    color: white;
+
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 4rem;
+}
+
+.del {
+    display: flex;
+    justify-content: center;
+    background: rgb(230, 14, 14);
+    color: white;
+ 
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 4rem;
+}
+
