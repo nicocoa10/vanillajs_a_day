@@ -7,7 +7,7 @@ console.log(poundsInput)
 
 // event listener to when user types/enters a number
 
-poundsInput.addEventListener('keyup',converter)
+poundsInput.addEventListener('input',converter)
 
 
 function converter(e){
