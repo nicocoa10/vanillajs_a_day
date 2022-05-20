@@ -38,11 +38,25 @@ input{
     background-color: blueviolet ;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     /* transform: translateX(100%); */
     display: none;
     /* display: none; */
+    animation : blink .9s infinite;
+
 }
+
+.unicorn {
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+@keyframes blink {
+    0% {background-color: #7b97ea;}
+    50% {background-color: #99dfe2;}
+    100% {background-color: #de68d2;}
+    }
 
 .shift{
     display: block;
