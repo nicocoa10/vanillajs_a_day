@@ -88,9 +88,12 @@ ul {
     list-style: none;
 }
 
-menu {
+.menu {
     color: black;
     width: 1.3rem;
+}
+.logo {
+   width: 50%;
 }
 
 .logo--first{
@@ -104,3 +107,35 @@ menu {
 .logo--second:visited{
     color: rgb(255, 0, 0);
 }
+
+
+@media screen and (min-width: 700px) {
+    .menu {
+        display: none;
+
+    }
+    nav{
+        position: static;
+        transform: translateY(0);
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+
+    }
+    ul{
+        flex-direction: row;
+        /* justify-content: space-between; */
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .container{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+  }
