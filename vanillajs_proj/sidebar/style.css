@@ -20,12 +20,25 @@ header{
     align-items: center;
 }
 
+.logo a{
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.logo a span{
+    color: rgb(37, 122, 110);
+}
 .navbar{
     display: flex;
     list-style-type: none;
 }
 .nav__item a{
     text-decoration: none;
+    color: black;
+    size: 2rem;
 }
 
 .nav__item +.nav__item {
@@ -48,7 +61,7 @@ header{
     display: none;
 }
 
-@media (max-width: 35em){
+@media (max-width: 45em){
 
     .navbar{
         background: hsl(0, 0%, 100%, .3);
@@ -65,12 +78,11 @@ header{
 
         transform: translateX(-100%);
 
-        
-
+        transition: all .5s linear ;
 
     }
     .mobiletop{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         position: fixed;
         top: 2rem;
         display: flex;
@@ -82,7 +94,7 @@ header{
         display: flex;
         position: fixed;
         bottom: 2rem;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 50%;
         justify-content: center;
 
@@ -99,6 +111,8 @@ header{
     }
     .open{
         transform: translateX(0);
+        transition: all .3s linear ;
+
 
     }
     .close{
@@ -115,6 +129,8 @@ header{
     }
     .menu{
         display: block;
+        margin-top: 2rem;
+        font-size: 2rem;
     }
 
 
