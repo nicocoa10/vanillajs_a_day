@@ -7,6 +7,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.menu-item {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
 .container {
     width: 90%;
     max-width: 400px;
@@ -100,12 +108,17 @@ section {
 
     }
 
-    .menu-item {
+    /* .menu-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    } */
+
+    .display {
         display: flex;
         justify-content: space-between;
         margin-bottom: 2rem;
     }
-
 
     .img-frame {
         width: 40%;
